@@ -1,0 +1,28 @@
+stepps
+  log
+  actions (par-state)
+  app core
+  components
+  init
+  handlers
+
+
+logging
+  user log in global scope, logged into by handlers
+  app log closed in app, logged into by itself
+  should they be more linked?
+    this can be done in the handler if they like
+    thinks not
+      should be able to freely use app from console or ui
+      inspecting each log separately
+
+
+* don't require components for this one
+    or rather, make it clear the important steps are 1 & 2
+  keep it to simple html & handlers
+  focus on using the app + log
+  and differentiating between user & app logs
+
+get rid of consolemd
+  all logs traceback to the same line of their source
+  instead learn how to do css(?) in console messages
